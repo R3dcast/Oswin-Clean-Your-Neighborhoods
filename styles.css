@@ -1,0 +1,62 @@
+/* The code on lines 3-7 makes the background of the header black and the text of the title of the webpage white. Change this to match what you want for your website! */
+header {
+    background-color: black;
+    color: #70966b;
+    outline: solid 4px;
+    outline-color: #162e13;
+    padding: 128px 16px;
+}
+
+body {
+    text-align: center;
+    border: 3px solid #162e13;
+    width: 50%;
+    background-image: radial-gradient(#2f0940, #2e1328, #1b1136, black);
+    background-color: black;
+    color: #ebebeb;
+    font-family: Sans-serif, "Arial";
+}
+
+.par1 {
+    border: 3px solid #162e13;
+    border-radius: 15px;
+    margin: 12px;
+    background-color: black;
+    opacity: 0.76;
+}
+
+.par2 {
+    border: 3px solid #162e13;
+    border-radius: 15px;
+    margin: 12px;
+    background-color: black;
+    opacity: 0.76;
+}
+
+.par3 {
+    border: 3px solid #162e13;
+    border-radius: 15px;
+    margin: 12px;
+    background-color: black;
+    opacity: 0.76;
+}
+
+img {
+    width: 90%;
+    border: dashed 3px #083820;
+}
+
+body {
+    margin: auto;
+}
+
+.clean {
+    width: 95%;
+    margin: 5px;
+    opacity: 100;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
